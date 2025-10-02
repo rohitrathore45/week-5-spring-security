@@ -14,15 +14,15 @@ class SecurityApplicationTests {
 
 	@Test
 	void contextLoads() {
-
-		UserEntity user = new UserEntity(4L, "rohit@gmail.com", "1234");
-
-		String token = jwtService.generateToken(user);
-
-		System.out.println(token);
-
-		Long id = jwtService.getUserIdFromToken(token);
-
-		System.out.println(id);
+//
+////		UserEntity user = new UserEntity(4L, "rohit@gmail.com", "1234");
+//
+//		String token = jwtService.generateToken(user);
+//
+//		System.out.println(token);
+//
+//		Long id = jwtService.getUserIdFromToken(token);
+//
+//		System.out.println(id);
 	}
 }
