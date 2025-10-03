@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignore application config files with sensitive data
+src/main/resources/application.properties
+src/main/resources/application.yml
+
